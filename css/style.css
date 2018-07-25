@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box; 
+	}
+/*changed body to look better*/
+body{
+	background-color: darkOrange;
+	margin: 0px; 
+	font-family: sans-serif;
+	float: left;
+	width: 100%;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	background-color: darkOrange;
+	color: white; 
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+/*made my own navbar to always be shown + transparent.*/
+nav{
+	opacity: 0.8;
+	position: fixed;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 60px;
+	background-color: #ad5f01;
+}
+
+nav a, nav h3{
+	
+	float: left;
+	text-align: center;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	color: #C0C0C0;
+	text-decoration: none;
+}
+/*nav bar has hover effects to grab attention of user*/
+
+nav a:hover{
+	float: left;
+	display: block;
+	background-color: #593000;
+	height: 60px;
+	width: 75px;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/*borders have beeb used to seperate different tiles*/
+.g-row{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	border-style: solid;
+	border-color:  #ad5f01;
+	
+}
+
+.g-row img{
+height: 100%;
+width: 100%; 
+border-color:  darkOrange;
+border-style: solid;
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; 
+}
